@@ -6,6 +6,7 @@ import Header from "./components/Header"
 import Home from "./pages/Home"
 import Integrantes from "./pages/Integrantes"
 import IntegranteDetail from "./pages/IntegrantesDetail"
+import Faq from "./pages/Faq"
 
 
 export default function App(){
@@ -17,6 +18,7 @@ export default function App(){
           <Route path="/" element={<Home />} />
           <Route path="/integrantes" element={<Integrantes />} />
           <Route path="/integrante/:id" element={<IntegranteDetail />} />
+          <Route path="/faq" element={<Faq />} />
         </Routes>
       </main>
       <Footer />
